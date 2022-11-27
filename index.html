@@ -2,6 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Minimal Blog</title>
     <link rel="stylesheet" href="css/style.css" />
   </head>
@@ -21,7 +22,7 @@
         <nav class="nav">
           <ul class="nav__list">
             <li class="nav__item">
-              <button class="button nav_button nav__link">Home</button>
+              <button class="button nav__button nav__link">Home</button>
             </li>
             <li class="nav__item">
               <button class="button nav__button nav__link">Articles</button>
@@ -159,8 +160,69 @@
           </div>
         </div>
       </section>
+
+      <section class="highlight">
+        <div class="highlight__container">
+          <div class="highlight__card card card_wide">
+            <div class="card__content">
+              <h2 class="card__title">What is Lorem Ipsum?</h2>
+              <p class="card__subtitle">
+                It is a long established fact that a reader will be distracted
+                by the readable content of a page when looking at its layout.
+                The point of using Lorem Ipsum is that it has a more-or-less
+                normal distribution...
+              </p>
+              <div class="card__footer">
+                <p class="card__date">May 20</p>
+                <a class="card__more-button" href="#"> Read more </a>
+              </div>
+            </div>
+
+            <div class="card__image-wrapper">
+              <img
+                class="card__image"
+                src="/img/card5.png"
+                alt="content image"
+              />
+            </div>
+          </div>
+          <button class="highlight__button button button__primary">
+            <span>See more</span>
+            <span class="icon icon_arrow"></span>
+          </button>
+        </div>
+      </section>
     </main>
 
-    <footer></footer>
+    <footer class="footer">
+      <div class="footer__container">
+        <span> <b> hotcoffee </b> 2020 copyright all rights reserved</span>
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <img
+                class="nav__link nav__contact"
+                src="img/instagram.svg"
+                alt="Instagram link"
+              />
+            </li>
+            <li class="nav__item">
+              <img
+                class="nav__link nav__contact"
+                src="img/twitter.svg"
+                alt="Twitter link"
+              />
+            </li>
+            <li class="nav__item nav__contact">
+              <img
+                class="nav__link"
+                src="img/linkedin.svg"
+                alt="Linkedin link"
+              />
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
   </body>
 </html>
