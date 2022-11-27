@@ -6,67 +6,160 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <section class="hero">
-      <div class="container">
-        <header class="header">
-          <div class="logo">
-            <img src="img/logo.png" alt="logo" />
-          </div>
-          <div class="search">
-            <img src="img/search-line.png" alt="search" />
-            <input class="search_input" type="search" placeholder="Search..." />
-          </div>
+    <header class="header">
+      <div class="header__container">
+        <a href="#" class="logo">
+          <img src="img/logo.svg" alt="logo" />
+        </a>
+        <div class="search">
+          <button class="button search__button">
+            <img src="img/search-line.svg" alt="search" />
+          </button>
+          <input class="search__input" type="search" placeholder="Search..." />
+        </div>
 
-          <nav class="nav">
-            <ul class="nav-list">
-              <li class="nav-item">
-                <a class="nav-link" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Articles</a>
-              </li>
-              <li class="nav-item">
-                <img
-                  class="nav-link nav-contact"
-                  src="img/instagram.svg"
-                  alt="Instagram link"
-                />
-              </li>
-              <li class="nav-item">
-                <img
-                  class="nav-link nav-contact"
-                  src="img/twitter.svg"
-                  alt="Twitter link"
-                />
-              </li>
-              <li class="nav-item nav-contact">
-                <img
-                  class="nav-link"
-                  src="img/linkedin.svg"
-                  alt="Linkedin link"
-                />
-              </li>
-            </ul>
-          </nav>
-        </header>
-
-      <div class="hero-content">
-          <div class="hero-main">
-            <div class="hero-main-title">
-             <h1 class="hero-title">Make better coffee</h1>
-             <img class="hero-title-img" src="img/cup.png" alt="coffe emoji" />
-            </div>
-            <h2 class="hero-subtitle">why learn how to blog?</h2>
-        
-          </div>
-          <div class="hero-image">
-          <img src="/img/hero-img.svg" alt="blog image">
-          </div>
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <button class="button nav_button nav__link">Home</button>
+            </li>
+            <li class="nav__item">
+              <button class="button nav__button nav__link">Articles</button>
+            </li>
+            <li class="nav__item">
+              <img
+                class="nav__link nav__contact"
+                src="img/instagram.svg"
+                alt="Instagram link"
+              />
+            </li>
+            <li class="nav__item">
+              <img
+                class="nav__link nav__contact"
+                src="img/twitter.svg"
+                alt="Twitter link"
+              />
+            </li>
+            <li class="nav__item nav__contact">
+              <img
+                class="nav__link"
+                src="img/linkedin.svg"
+                alt="Linkedin link"
+              />
+            </li>
+          </ul>
+        </nav>
       </div>
+    </header>
 
+    <main>
+      <section class="hero">
+        <div class="hero__container">
+          <div class="hero__main">
+            <h1 class="hero__title">
+              Make better <span class="hero__coffee">coffee</span>
+            </h1>
+            <h2 class="hero__subtitle">why learn how to blog?</h2>
+          </div>
+          <div class="hero__image">
+            <img src="/img/hero-img.svg" alt="blog image" />
+          </div>
+        </div>
+      </section>
 
-    </section>
-    <main></main>
+      <section class="card-panel">
+        <div class="card-panel__container">
+          <div class="card-panel__card card card_wide">
+            <div class="card__content">
+              <h2 class="card__title">long established</h2>
+              <p class="card__subtitle">
+                It is a long established fact that a reader will be distracted
+                by the readable content of a page when looking at its layout.
+                The point of using Lorem Ipsum is that....
+              </p>
+              <div class="card__footer">
+                <p class="card__date">May 20th 2020</p>
+                <a class="card__more-button" href="#"> Read more </a>
+              </div>
+            </div>
+
+            <div class="card__image-wrapper">
+              <img
+                class="card__image"
+                src="/img/card1.png"
+                alt="content image"
+              />
+            </div>
+          </div>
+          <div class="card-panel__card card">
+            <div class="card__content">
+              <h2 class="card__title">long established</h2>
+              <p class="card__subtitle">
+                It is a long established fact that a reader will be distracted
+                by the readable content of a page when looking at its layout.
+                The point of using Lorem Ipsum is that....
+              </p>
+              <div class="card__footer">
+                <p class="card__date">May 20th 2020</p>
+                <a class="card__more-button" href="#"> Read more </a>
+              </div>
+            </div>
+
+            <div class="card__image-wrapper">
+              <img
+                class="card__image"
+                src="/img/card2.png"
+                alt="content image"
+              />
+            </div>
+          </div>
+          <div class="card-panel__card card">
+            <div class="card__content">
+              <h2 class="card__title">long established</h2>
+              <p class="card__subtitle">
+                It is a long established fact that a reader will be distracted
+                by the readable content of a page when looking at its layout.
+                The point of using Lorem Ipsum is that....
+              </p>
+              <div class="card__footer">
+                <p class="card__date">May 20th 2020</p>
+                <a class="card__more-button" href="#"> Read more </a>
+              </div>
+            </div>
+
+            <div class="card__image-wrapper">
+              <img
+                class="card__image"
+                src="/img/card3.png"
+                alt="content image"
+              />
+            </div>
+          </div>
+          <div class="card-panel__card card">
+            <div class="card__content">
+              <h2 class="card__title">long established</h2>
+              <p class="card__subtitle">
+                It is a long established fact that a reader will be distracted
+                by the readable content of a page when looking at its layout.
+                The point of using Lorem Ipsum is that....
+              </p>
+              <div class="card__footer">
+                <p class="card__date">May 20th 2020</p>
+                <a class="card__more-button" href="#"> Read more </a>
+              </div>
+            </div>
+
+            <div class="card__image-wrapper">
+              <img
+                class="card__image"
+                src="/img/card4.png"
+                alt="content image"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
 
     <footer></footer>
   </body>
